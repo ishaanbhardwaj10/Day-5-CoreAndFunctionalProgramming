@@ -14,6 +14,7 @@
             Console.WriteLine("Program #7: Swap Two Numbers");
             Console.WriteLine("Program #8: Number is Even or Odd");
             Console.WriteLine("Program #9: Alphabet is Vowel or Consonant");
+            Console.WriteLine("Program #10: Largest Number Among Three Numbers");
 
             Console.Write("Please select a program to run from options above: ");
             int choice = Convert.ToInt32(Console.ReadLine());
@@ -46,6 +47,9 @@
                     break;
                 case 9:
                     VowelOrConsonant.AlphabetCheck();
+                    break;
+                case 10:
+                    LargestNumberAmongThree.FindTheLargest();
                     break;
                 default:
                     Console.WriteLine("Please enter a valid number from given options");
