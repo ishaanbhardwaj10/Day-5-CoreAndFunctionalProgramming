@@ -11,6 +11,7 @@
             Console.WriteLine("Program #4: Harmonic Number");
             Console.WriteLine("Program #5: Factors");
             Console.WriteLine("Program #6: Compute Quotient and Remainder");
+            Console.WriteLine("Program #7: Swap Two Numbers");
 
             Console.Write("Please select a program to run from options above: ");
             int choice = Convert.ToInt32(Console.ReadLine());
@@ -35,6 +36,10 @@
                 case 6:
                     QuotientRemainder.Compute();
                     break;
+                case 7:
+                    SwapTwoNumbers.Swap();
+                    break;
+                default:
                     Console.WriteLine("Please enter a valid number from given options");
                     break;
             }
