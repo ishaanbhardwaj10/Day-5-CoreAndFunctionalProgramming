@@ -9,6 +9,7 @@
             Console.WriteLine("Program #2: Leap Year");
             Console.WriteLine("Program #3: Power of 2");
             Console.WriteLine("Program #4: Harmonic Number");
+            Console.WriteLine("Program #5: Factors");
 
             Console.Write("Please select a program to run from options above: ");
             int choice = Convert.ToInt32(Console.ReadLine());
@@ -26,6 +27,9 @@
                     break;
                 case 4:
                     HarmonicNumber.PrintSeries();
+                    break;
+                case 5:
+                    Factors.PrimeFactors();
                     break;
                 default:
                     Console.WriteLine("Please enter a valid number from given options");
