@@ -12,6 +12,7 @@
             Console.WriteLine("Program #5: Factors");
             Console.WriteLine("Program #6: Compute Quotient and Remainder");
             Console.WriteLine("Program #7: Swap Two Numbers");
+            Console.WriteLine("Program #8: Number is Even or Odd");
 
             Console.Write("Please select a program to run from options above: ");
             int choice = Convert.ToInt32(Console.ReadLine());
@@ -38,6 +39,9 @@
                     break;
                 case 7:
                     SwapTwoNumbers.Swap();
+                    break;
+                case 8:
+                    EvenOrOdd.NumberEvenOrOdd();
                     break;
                 default:
                     Console.WriteLine("Please enter a valid number from given options");
